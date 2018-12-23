@@ -1,0 +1,327 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color:#121B2A;
+
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin-top: 17px;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+	margin-top: 47px;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0 20px;
+	display: block;
+	transition: .4s;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: #153C5D;
+}
+
+.banner{
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contant{
+width: 50%;
+	margin-top: 200px;
+	margin-bottom: 70px;
+
+}
+.contant h2{
+	color: white;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	  
+     
+
+.contant h1{
+     color: #0B73AD;
+	font-size: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.contant p{
+color: white;
+font-size: 15px;
+margin-top: 10px;
+}
+.contant button{
+
+	padding: 5px 40px;
+}
+.button_Text{
+color: #8F8F8F;
+	font-size: 20px;
+}
+button img{
+
+	width 5px;
+}
+.services{
+background-color: #121B2C;
+padding: 15px 0;
+}
+
+.one{
+
+	width: 33.3%;
+	float: left;
+
+}
+.one_title{
+	overflow: hidden;
+}
+.one_title_img{
+	width: 20%;
+	float: left;
+}
+.one_title_img img{
+	width: 100%;
+}
+.one_title_head{
+	width: 70%;
+	float: left;
+}
+.one_title_head h1{
+	color: white;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 3px 0;
+}
+.one_title_head h2{
+	color: #25669F;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0;
+}
+
+.one_text p{
+	color: white;
+}
+.two{
+
+	width: 33%;
+	float: left;
+	border-right: solid white 1px;
+	border-left: solid white 1px;
+}
+.two_title{
+	overflow: hidden;
+}
+.two_title_img{
+	width: 20%;
+	float: left;
+}
+.two_title_img img{
+	width: 70%;
+}
+.two_title_head{
+	width: 70%;
+	float: left;
+}
+.two_title_head h1{
+	color: white;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 3px 0;
+}
+.two_title_head h2{
+	color: #25669F;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0;
+}
+.two_text p{
+	color: white;
+}
+
+.three{
+
+
+	width: 30%;
+	float: right;
+}
+.three_title{
+	overflow: hidden;
+}
+.three_title_img{
+	width: 20%;
+	float: left;
+}
+.three_title_img img{
+	width: 70%;
+}
+.three_title_head{
+	width: 70%;
+	float: left;
+}
+.three_title_head h1{
+	color: white;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 3px 0;
+}
+.three_title_head h2{
+	color: #25669F;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0;
+}
+
+.three_text p{
+	color: white;
+}
+
+.info{
+	background-color: #050811;
+}
+.container_one{
+		width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.info_one{
+
+	float: left;
+	width: 30%
+}
+.info_one_title{
+	overflow: hidden;
+}
+.info_one_title_one{
+width: 20%;
+float:left;
+}
+.info_one_title_one h2{
+	color: #174C76;
+	font-size: 15px;
+}
+.info_one_title_two{
+width: 75%;
+margin-left: 0;
+float: left;
+}
+.info_one_title_two h2{
+	color: white;
+	font-size: 15px;
+
+}
+.info_one_text p{
+	color: white;
+	font-size: 10px;
+}
+.info_two{
+	
+	width: 10%
+	float:left;
+	
+	
+}
+.info_two_img{
+	width: 100%;
+}
+.footer{
+	background-color: #131A2C;
+
+
+}
+.footer_menu{
+	
+	width:50%;
+	float:left;
+
+
+
+}
+.footer_menu ul{
+	float: left;
+	margin-bottom: 0;
+
+}
+.footer_menu ul li{
+	list-style: none;
+	float: left;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color:#7A7E87;
+	padding: 0 20px;
+
+}
+.footer_menu ul li:last-child{
+	border-right: 0;
+
+}
+.footer_menu ul li:first-child{
+	border-left: 0;
+	padding-left: 0;
+
+}
+
+.footer_menu ul li a{
+	text-decoration: none;
+	color:#7A7E87;
+	font-size: 12px;
+	font-weight: 400;
+	
+
+}
+.footer_menu ul li a:hover{
+	color:#1B5983;
+	transition: .5s;
+}
+
+
+.footer_logo{
+	
+	width:30%;
+	float: right;
+	margin-top: 10px;
+}
+.footer_logo img{
+	width:100%;
+
+}
+.copyright{	
+	color:white;
+	width:40%;
+	float: left;
+	padding:15px 39px;
+	font-weight: 400;
+	font-size: 12px;
+	
+}
+
